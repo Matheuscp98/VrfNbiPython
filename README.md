@@ -12,7 +12,7 @@ The main goal is to allow users to execute the VRF-NBI process in Python, across
 
 ## How to Use
 
-1. Download or clone this repository to your local machine.
+1. Download or clone this repository or code [VRF-NBI](VRF-NBI.ipynb) to your local machine.
 2. Open Jupyter Notebook.
 3. Make sure the libraries are installed on your machine.
 4. Use your own dataset or the one provided by the author.
