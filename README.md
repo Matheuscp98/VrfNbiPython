@@ -30,11 +30,11 @@ Here are some figures related to the Jupyter Notebook used in this project.
 
 2. **VRF-NBI Responses**  
    ![VRF-NBI Responses](VRF-NBI_Responses.jpg)  
-   *Responses obtained from the experimental design.*
+   *Responses obtained from the experimental design (using CFD).*
 
 3. **VRF-NBI Correlation and Covariance**  
    ![VRF-NBI Correlation Covariance](VRF-NBI_CorrelationCovariance.jpg)  
-   *Correlation and covariance matrix of the factors.*
+   *Correlation and covariance matrix of the original responses.*
 
 4. **VRF-NBI PCAFA**  
    ![VRF-NBI PCAFA](VRF-NBI_PCAFA.jpg)  
@@ -42,7 +42,7 @@ Here are some figures related to the Jupyter Notebook used in this project.
 
 5. **VRF-NBI DOE Analysis**  
    ![VRF-NBI DOE Analysis](VRF-NBI_DOEAnalysis.jpg)  
-   *Analysis of the Design of Experiments (DOE).*
+   *Analysis of the Design of Experiments (DOE) of the original responses and the rotated factors.*
 
 6. **VRF-NBI Coefficients**  
    ![VRF-NBI Coefficients](VRF-NBI_Coefficients.jpg)  
@@ -50,27 +50,27 @@ Here are some figures related to the Jupyter Notebook used in this project.
 
 7. **VRF-NBI Simplex Lattice Design**  
    ![VRF-NBI Simplex Lattice Design](VRF-NBI_SimplexLatticeDesign.jpg)  
-   *Visual representation of the Simplex Lattice Design.*
+   *Visual representation of the Mixture Simplex Lattice Design.*
 
 8. **VRF-NBI Individual Optimization**  
    ![VRF-NBI Individual Optimization](VRF-NBI_IndividualOptimization.jpg)  
-   *Results of individual optimization process.*
+   *Results of the individual optimization process of the original responses and the rotated factors.*
 
 9. **VRF-NBI Payoff Matrix**  
    ![VRF-NBI Payoff Matrix](VRF-NBI_PayoffMatrix.jpg)  
-   *Payoff matrix showing the outcomes of the optimization.*
+   *Payoff matrix, Utopia, PseudoNadir, and Scaled Payoff.*
 
 10. **VRF-NBI Additional Functions**  
     ![VRF-NBI Additional Functions](VRF-NBI_AdditionalFunctions.jpg)  
-    *Overview of additional functions available in the code.*
+    *Additional functions used in the NBI.*
 
 11. **VRF-NBI Constraints**  
     ![VRF-NBI Constraints](VRF-NBI_Constraints.jpg)  
-    *Constraints used in the optimization process.*
+    *Constraints used in the NBI process.*
 
 12. **VRF-NBI Results**  
     ![VRF-NBI Results](VRF-NBI_Results.jpg)  
-    *Final results obtained from the VRF-NBI process.*
+    *Final results obtained from the VRF-NBI process with the evaluation metrics.*
 
 
 ## Contact
