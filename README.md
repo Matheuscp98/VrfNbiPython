@@ -1,82 +1,68 @@
-# VRF-NBI Python Code
+# 📊 VRF-NBI: Python Code
 
-## Description
+## 📝 Description
 
-This Python code implements the complete process for the **Varimax Rotated Factor Normal Boundary Intersection (VRF-NBI)** method, as described in the paper:
-- [Nonlinear Multiobjective Optimization of Efficiency Conditions using a CFD-DOE Hybrid Approach: A Practical Application in Centrifugal Fans for Industrial Ovens](link).
+This repository contains the **Python implementation** of the Varimax Rotated Factor Normal Boundary Intersection (VRF-NBI) method.
 
-The code is designed to execute all functions using Python, allowing users to work with their own dataset; however, the dataset used in the paper is also provided. This dataset was created from a Design of Experiments (DOE) using responses generated through Computational Fluid Dynamics (CFD). The extraction of latent variables was performed with Principal Components Factor Analysis (PCFA), and the multiobjective optimization was done with Normal Boundary Intersection (NBI), while the metrics for evaluating the responses used in the paper were Shannon Entropy (S) and Generalized Distance (GD). 
+The code is designed to execute all stages of the VRF-NBI process using Python. It allows users to work with their own datasets, but the original dataset (from the published paper) is also provided. This dataset was generated via Design of Experiments (DOE) with responses from Computational Fluid Dynamics (CFD). Latent variable extraction was performed using Principal Components Factor Analysis (PCFA), and multiobjective optimization was done with the Normal Boundary Intersection (NBI) method. Evaluation metrics include Shannon Entropy (S) and Generalized Distance (GD).
 
-The main goal is to allow users to execute the VRF-NBI process in Python, across all stages of the method. The provided code does not focus on creating graphs but rather on applying the method.
+> 👨🏻‍💻 For Excel/VBA implementation of the method, see: [VRF-NBI for Excel/VBA](https://github.com/Matheuscp98/Normal_Boundary_Intersection)
 
+**Note:** This code focuses on applying the method, not on visualization/plotting.
 
-## How to Use
+---
 
-1. Download or clone this repository or code [VRF-NBI](VRF-NBI.ipynb) to your local machine.
-2. Open Jupyter Notebook.
-3. Make sure the libraries are installed on your machine.
-4. Use your own dataset or the one provided by the author.
-5. Run the Python code blocks and obtain the results.
-6. The code includes detailed comments and auxiliary figures to help you understand its functionality.
+## 🛠️ How to Use
 
+1. **Clone or download** this repository or [VRF-NBI.ipynb](VRF-NBI.ipynb).
+2. **Open** the notebook in Jupyter.
+3. **Install** the required Python libraries (see notebook header for details).
+4. **Use** your own dataset or the provided sample dataset.
+5. **Run** the code blocks to reproduce all steps and results.
+6. The code includes detailed comments and is organized by functional blocks for easier understanding.
 
-## Figures
+---
 
-Here are some figures related to the Jupyter Notebook used in this project.
+## 📚 Publications
 
-1. **VRF-NBI CCD Design**  
-   ![VRF-NBI CCD Design](VRF-NBI_CCDDesign.jpg)  
-   *Design of experiments using Central Composite Design (CCD).*
+In addition to ongoing manuscripts under review, the following public papers are already available:
 
-2. **VRF-NBI Responses**  
-   ![VRF-NBI Responses](VRF-NBI_Responses.jpg)  
-   *Responses obtained from the experimental design (using CFD).*
+- **Nonlinear Multiobjective Optimization of Efficiency Conditions using a CFD-DOE Hybrid Approach: A Practical Application in Centrifugal Fans for Industrial Ovens**  
+  *(The main Python example dataset is from this work. Manuscript currently under review; )*
+- **Strategies in Decision Making in a Multiobjective Context: Integration of DOE, NBI, and CFD in the Optimization of a Centrifugal Fan**  
+  [Read here](https://publicacoes.softaliza.com.br/cilamce/article/view/10211/7235)
+- **Optimizing Mesh and CFD Simulation Performance: A Multivariate Analysis Approach**  
+  [Read here](https://publicacoes.softaliza.com.br/cilamce/article/view/8110/6998)
+- **Otimização Multiobjetivo de Custos e Qualidade de Simulações de CFD: Explorando a Fronteira de Pareto**  
+  [Leia aqui](https://proceedings.science/sbpo/sbpo-2024/trabalhos/otimizacao-multiobjetivo-de-custos-e-qualidade-de-simulacoes-de-cfd-explorando-a?lang=pt-br)
 
-3. **VRF-NBI Correlation and Covariance**  
-   ![VRF-NBI Correlation Covariance](VRF-NBI_CorrelationCovariance.jpg)  
-   *Correlation and covariance matrix of the original responses.*
+---
 
-4. **VRF-NBI PCAFA**  
-   ![VRF-NBI PCAFA](VRF-NBI_PCAFA.jpg)  
-   *Results from Principal Components Factor Analysis (PCAFA).*
+## 🖼️ Figures
 
-5. **VRF-NBI DOE Analysis**  
-   ![VRF-NBI DOE Analysis](VRF-NBI_DOEAnalysis.jpg)  
-   *Analysis of the Design of Experiments (DOE) of the original responses and the rotated factors.*
+| Example                                      | Screenshot                        | Description                                        |
+|-----------------------------------------------|-----------------------------------|----------------------------------------------------|
+| VRF-NBI CCD Design                           | ![VRF-NBI CCD Design](VRF-NBI_CCDDesign.jpg) | Design of experiments using Central Composite Design (CCD). |
+| VRF-NBI Responses                            | ![VRF-NBI Responses](VRF-NBI_Responses.jpg) | Responses obtained from the experimental design (using CFD). |
+| VRF-NBI Correlation and Covariance           | ![VRF-NBI Correlation Covariance](VRF-NBI_CorrelationCovariance.jpg) | Correlation and covariance matrix of the original responses. |
+| VRF-NBI PCAFA                                | ![VRF-NBI PCAFA](VRF-NBI_PCAFA.jpg) | Results from Principal Components Factor Analysis (PCAFA). |
+| VRF-NBI DOE Analysis                         | ![VRF-NBI DOE Analysis](VRF-NBI_DOEAnalysis.jpg) | Analysis of DOE for the original responses and the rotated factors. |
+| VRF-NBI Coefficients                         | ![VRF-NBI Coefficients](VRF-NBI_Coefficients.jpg) | Coefficients obtained from the analysis. |
+| VRF-NBI Simplex Lattice Design               | ![VRF-NBI Simplex Lattice Design](VRF-NBI_SimplexLatticeDesign.jpg) | Visual representation of the Mixture Simplex Lattice Design. |
+| VRF-NBI Individual Optimization              | ![VRF-NBI Individual Optimization](VRF-NBI_IndividualOptimization.jpg) | Results of individual optimization (original responses and rotated factors). |
+| VRF-NBI Payoff Matrix                        | ![VRF-NBI Payoff Matrix](VRF-NBI_PayoffMatrix.jpg) | Payoff matrix, Utopia, PseudoNadir, and Scaled Payoff. |
+| VRF-NBI Additional Functions                 | ![VRF-NBI Additional Functions](VRF-NBI_AdditionalFunctions.jpg) | Additional functions used in the NBI. |
+| VRF-NBI Constraints                          | ![VRF-NBI Constraints](VRF-NBI_Constraints.jpg) | Constraints used in the NBI process. |
+| VRF-NBI Results                              | ![VRF-NBI Results](VRF-NBI_Results.jpg) | Final results obtained from the VRF-NBI process with evaluation metrics. |
 
-6. **VRF-NBI Coefficients**  
-   ![VRF-NBI Coefficients](VRF-NBI_Coefficients.jpg)  
-   *Coefficients obtained from the analysis.*
+---
 
-7. **VRF-NBI Simplex Lattice Design**  
-   ![VRF-NBI Simplex Lattice Design](VRF-NBI_SimplexLatticeDesign.jpg)  
-   *Visual representation of the Mixture Simplex Lattice Design.*
+## 📬 Contact
 
-8. **VRF-NBI Individual Optimization**  
-   ![VRF-NBI Individual Optimization](VRF-NBI_IndividualOptimization.jpg)  
-   *Results of the individual optimization process of the original responses and the rotated factors.*
+<a href="mailto:matheusc_pereira@hotmail.com"><img src="https://img.shields.io/badge/E--mail-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="E-mail"/></a>
+<a href="https://www.linkedin.com/in/matheuscostapereira/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://lattes.cnpq.br/7025666927284220"><img src="https://img.shields.io/badge/Lattes-4169E1?style=for-the-badge&logoColor=white" alt="Lattes"/></a>
 
-9. **VRF-NBI Payoff Matrix**  
-   ![VRF-NBI Payoff Matrix](VRF-NBI_PayoffMatrix.jpg)  
-   *Payoff matrix, Utopia, PseudoNadir, and Scaled Payoff.*
+---
 
-10. **VRF-NBI Additional Functions**  
-    ![VRF-NBI Additional Functions](VRF-NBI_AdditionalFunctions.jpg)  
-    *Additional functions used in the NBI.*
-
-11. **VRF-NBI Constraints**  
-    ![VRF-NBI Constraints](VRF-NBI_Constraints.jpg)  
-    *Constraints used in the NBI process.*
-
-12. **VRF-NBI Results**  
-    ![VRF-NBI Results](VRF-NBI_Results.jpg)  
-    *Final results obtained from the VRF-NBI process with the evaluation metrics.*
-
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out via:
-
-- **Email**: [matheusc_pereira@hotmail.com](mailto:matheusc_pereira@hotmail.com)
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/matheuscostapereira/)
-- **Lattes**: [Lattes Profile](https://lattes.cnpq.br/7025666927284220)
+> _Feel free to open issues or PRs, or reach out for collaboration or questions!_
