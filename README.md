@@ -28,7 +28,7 @@ The code is designed to execute all stages of the VRF-NBI process using Python. 
 In addition to ongoing manuscripts under review, the following public papers are already available:
 
 - **Nonlinear Multiobjective Optimization of Efficiency Conditions using a CFD-DOE Hybrid Approach: A Practical Application in Centrifugal Fans for Industrial Ovens**  
-  *(The main Python example dataset is from this work. Manuscript currently under review; )*
+  *(The main Python example dataset is from this work. Manuscript currently under review)*
 - **Strategies in Decision Making in a Multiobjective Context: Integration of DOE, NBI, and CFD in the Optimization of a Centrifugal Fan**  
   [Read here](https://publicacoes.softaliza.com.br/cilamce/article/view/10211/7235)
 - **Optimizing Mesh and CFD Simulation Performance: A Multivariate Analysis Approach**  
