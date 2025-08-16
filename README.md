@@ -12,17 +12,6 @@ The code is designed to execute **all stages** of the **VRF-NBI process** using 
 
 ---
 
-## 🛠️ How to Use
-
-1. **Clone or download** this repository or [**VRF-NBI.ipynb**](VRF-NBI.ipynb).  
-2. **Open** the notebook in **Jupyter**.  
-3. **Install** the **required Python libraries** (see notebook header for details).  
-4. **Use** your own dataset or the **provided sample dataset**.  
-5. **Run** the code blocks to reproduce **all steps and results**.  
-6. The code includes **detailed comments** and is **organized by functional blocks** for easier understanding.  
-
----
-
 ## 📚 Publications
 
 In addition to ongoing manuscripts under review, the following public papers are already available:
@@ -35,6 +24,17 @@ In addition to ongoing manuscripts under review, the following public papers are
   [Read here](https://publicacoes.softaliza.com.br/cilamce/article/view/8110/6998)
 - **Multiobjective optimization of CFD simulation costs and quality: Exploring the Pareto frontier** (*Otimização Multiobjetivo de Custos e Qualidade de Simulações de CFD: Explorando a Fronteira de Pareto*)  
   [Read here](https://proceedings.science/sbpo/sbpo-2024/trabalhos/otimizacao-multiobjetivo-de-custos-e-qualidade-de-simulacoes-de-cfd-explorando-a?lang=pt-br)
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone or download** this repository or [**VRF-NBI.ipynb**](VRF-NBI.ipynb).  
+2. **Open** the notebook in **Jupyter**.  
+3. **Install** the **required Python libraries** (see notebook header for details).  
+4. **Use** your own dataset or the **provided sample dataset**.  
+5. **Run** the code blocks to reproduce **all steps and results**.  
+6. The code includes **detailed comments** and is **organized by functional blocks** for easier understanding.  
 
 ---
 
