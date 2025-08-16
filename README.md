@@ -29,7 +29,7 @@ In addition to ongoing manuscripts under review, the following public papers are
 
 ## 🛠️ How to Use
 
-1. **Clone or download** this repository or [**VRF-NBI.ipynb**](VRF-NBI.ipynb).  
+1. **Clone or download** this repository or [**Script VRF-NBI**](VRF-NBI.ipynb).  
 2. **Open** the notebook in **Jupyter**.  
 3. **Install** the **required Python libraries** (see notebook header for details).  
 4. **Use** your own dataset or the **provided sample dataset**.  
