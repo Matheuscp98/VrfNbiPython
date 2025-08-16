@@ -2,24 +2,24 @@
 
 ## 📝 Description
 
-This repository contains the **Python implementation** of the Varimax Rotated Factor Normal Boundary Intersection (VRF-NBI) method.
+This repository contains the **Python implementation** of the **Varimax Rotated Factor Normal Boundary Intersection (VRF-NBI)** method.
 
-The code is designed to execute all stages of the VRF-NBI process using Python. It allows users to work with their own datasets, but the original dataset (from the published paper) is also provided. This dataset was generated via Design of Experiments (DOE) with responses from Computational Fluid Dynamics (CFD). Latent variable extraction was performed using Principal Components Factor Analysis (PCFA), and multiobjective optimization was done with the Normal Boundary Intersection (NBI) method. Evaluation metrics include Shannon Entropy (S) and Generalized Distance (GD).
+The code is designed to execute **all stages** of the **VRF-NBI process** using **Python**. It allows users to work with their **own datasets**, but the **original dataset** (from the published paper) is also provided. This dataset was generated via **Design of Experiments (DOE)** with responses from **Computational Fluid Dynamics (CFD)**. **Latent variable extraction** was performed using **Principal Components Factor Analysis (PCFA)**, and **multiobjective optimization** was done with the **Normal Boundary Intersection (NBI)** method. **Evaluation metrics** include **Shannon Entropy (S)** and **Generalized Distance (GD)**.
 
-> For Excel/VBA implementation of the method, see: [VRF-NBI for Excel/VBA](https://github.com/Matheuscp98/Normal_Boundary_Intersection)
+> For **Excel/VBA implementation** of the method, see: [**VRF-NBI for Excel/VBA**](https://github.com/Matheuscp98/Normal_Boundary_Intersection)
 
-**Note:** This code focuses on applying the method, not on visualization/plotting.
+**Note:** This code focuses on **applying the method**, not on **visualization/plotting**.
 
 ---
 
 ## 🛠️ How to Use
 
-1. **Clone or download** this repository or [VRF-NBI.ipynb](VRF-NBI.ipynb).
-2. **Open** the notebook in Jupyter.
-3. **Install** the required Python libraries (see notebook header for details).
-4. **Use** your own dataset or the provided sample dataset.
-5. **Run** the code blocks to reproduce all steps and results.
-6. The code includes detailed comments and is organized by functional blocks for easier understanding.
+1. **Clone or download** this repository or [**VRF-NBI.ipynb**](VRF-NBI.ipynb).  
+2. **Open** the notebook in **Jupyter**.  
+3. **Install** the **required Python libraries** (see notebook header for details).  
+4. **Use** your own dataset or the **provided sample dataset**.  
+5. **Run** the code blocks to reproduce **all steps and results**.  
+6. The code includes **detailed comments** and is **organized by functional blocks** for easier understanding.  
 
 ---
 
