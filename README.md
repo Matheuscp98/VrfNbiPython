@@ -6,6 +6,8 @@ This repository contains the **Python implementation** of the **Varimax Rotated 
 
 The code is designed to execute **all stages** of the **VRF-NBI process** using **Python**. It allows users to work with their **own datasets**, but the **original dataset** (from the published paper) is also provided. This dataset was generated via **Design of Experiments (DOE)** with responses from **Computational Fluid Dynamics (CFD)**. **Latent variable extraction** was performed using **Principal Components Factor Analysis (PCFA)**, and **Multiobjective Optimization (MO)** was done with the **Normal Boundary Intersection (NBI)** method. **Evaluation metrics** include **Shannon Entropy (S)** and **Generalized Distance (GD)**.
 
+The code is designed to execute **all stages** of the **VRF-NBI** process using **Python**. It allows users to work with their **own datasets**; moreover, the **original datasets** (from the published papers) are also provided. These datasets were generated via **Design of Experiments (DOE)** with responses from **Computational Fluid Dynamics (CFD)**. **Latent variable extraction** was performed using **Principal Components Factor Analysis (PCFA)**, and **Multiobjective Optimization (MO)** was conducted with the **Normal Boundary Intersection (NBI)** method. **Evaluation metrics** include **Shannon Entropy (S)** and **Generalized Distance (GD)**.
+
 > For **Excel/VBA implementation** of the method, see: [**VRF-NBI for Excel/VBA**](https://github.com/Matheuscp98/Normal_Boundary_Intersection)
 
 **Note:** This code focuses on **applying the method**, not on **visualization/plotting**.
@@ -45,12 +47,12 @@ In addition to ongoing manuscripts under review, the following public papers are
 | VRF-NBI CCD Design                           | ![VRF-NBI CCD Design](VRF-NBI_CCDDesign.jpg) | Design of experiments using Central Composite Design (CCD). |
 | VRF-NBI Responses                            | ![VRF-NBI Responses](VRF-NBI_Responses.jpg) | Responses obtained from the experimental design (using CFD). |
 | VRF-NBI Correlation and Covariance           | ![VRF-NBI Correlation Covariance](VRF-NBI_CorrelationCovariance.jpg) | Correlation and covariance matrix of the original responses. |
-| VRF-NBI PCAFA                                | ![VRF-NBI PCAFA](VRF-NBI_PCAFA.jpg) | Results from Principal Components Factor Analysis (PCAFA). |
+| VRF-NBI PCFA                                 | ![VRF-NBI PCFA](VRF-NBI_PCFA.jpg) | Results from Principal Components Factor Analysis (PCFA). |
 | VRF-NBI DOE Analysis                         | ![VRF-NBI DOE Analysis](VRF-NBI_DOEAnalysis.jpg) | Analysis of DOE for the original responses and the rotated factors. |
 | VRF-NBI Coefficients                         | ![VRF-NBI Coefficients](VRF-NBI_Coefficients.jpg) | Coefficients obtained from the analysis. |
 | VRF-NBI Simplex Lattice Design               | ![VRF-NBI Simplex Lattice Design](VRF-NBI_SimplexLatticeDesign.jpg) | Visual representation of the Mixture Simplex Lattice Design. |
 | VRF-NBI Individual Optimization              | ![VRF-NBI Individual Optimization](VRF-NBI_IndividualOptimization.jpg) | Results of individual optimization (original responses and rotated factors). |
-| VRF-NBI Payoff Matrix                        | ![VRF-NBI Payoff Matrix](VRF-NBI_PayoffMatrix.jpg) | Payoff matrix, Utopia, PseudoNadir, and Scaled Payoff. |
+| VRF-NBI Payoff Matrix                        | ![VRF-NBI Payoff Matrix](VRF-NBI_PayoffMatrix.jpg) | Payoff matrix, Utopia, Pseudo Nadir, and Scaled Payoff. |
 | VRF-NBI Additional Functions                 | ![VRF-NBI Additional Functions](VRF-NBI_AdditionalFunctions.jpg) | Additional functions used in the NBI. |
 | VRF-NBI Constraints                          | ![VRF-NBI Constraints](VRF-NBI_Constraints.jpg) | Constraints used in the NBI process. |
 | VRF-NBI Results                              | ![VRF-NBI Results](VRF-NBI_Results.jpg) | Final results obtained from the VRF-NBI process with evaluation metrics. |
