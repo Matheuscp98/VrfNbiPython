@@ -4,7 +4,7 @@
 
 This repository contains the **Python implementation** of the **Varimax Rotated Factor Normal Boundary Intersection (VRF-NBI)** method.
 
-The code is designed to execute **all stages** of the **VRF-NBI process** using **Python**. It allows users to work with their **own datasets**, but the **original dataset** (from the published paper) is also provided. This dataset was generated via **Design of Experiments (DOE)** with responses from **Computational Fluid Dynamics (CFD)**. **Latent variable extraction** was performed using **Principal Components Factor Analysis (PCFA)**, and **multiobjective optimization** was done with the **Normal Boundary Intersection (NBI)** method. **Evaluation metrics** include **Shannon Entropy (S)** and **Generalized Distance (GD)**.
+The code is designed to execute **all stages** of the **VRF-NBI process** using **Python**. It allows users to work with their **own datasets**, but the **original dataset** (from the published paper) is also provided. This dataset was generated via **Design of Experiments (DOE)** with responses from **Computational Fluid Dynamics (CFD)**. **Latent variable extraction** was performed using **Principal Components Factor Analysis (PCFA)**, and **Multiobjective Optimization (MO)** was done with the **Normal Boundary Intersection (NBI)** method. **Evaluation metrics** include **Shannon Entropy (S)** and **Generalized Distance (GD)**.
 
 > For **Excel/VBA implementation** of the method, see: [**VRF-NBI for Excel/VBA**](https://github.com/Matheuscp98/Normal_Boundary_Intersection)
 
